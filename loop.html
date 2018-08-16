@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+  <title>loop.fit | Route Map</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">  
+  <link rel="stylesheet" href="mapstyles.css">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset = "UTF-8" />
+
+
+
+</head>
+
+
+<!--left hand side of the page-->
+<div id="map"></div>
+
+<script>
+	function init(){
+		initialise();
+	}
+</script>
+
+
+
+<!--the righthand side of the page-->
+<div id="controls"> 
+
+	<div id="optionsHeader">
+		<h1>Location options</h1>
+	</div>
+
+	<div id="searchbar">
+		<p>Input location</p>
+		<input id="pac-input" class="controls" type="text" placeholder="Type an address or place...">
+	</div>
+
+	<p><strong>OR</strong></p>
+
+	<div id="geolocator">
+		<p>Find current location via GPS</p>
+		<input id="getLoc" type="button" value="Find Location" onclick="getLocation()" />
+
+		<div id="error"></div>
+
+	</div>
+
+</div>
+
+<div id="distance">
+
+	<div id="distanceInput">
+		<label>Route distance:
+    		<input type='text' name='distanceField' id='distanceField' placeholder="">
+  		</label>
+
+  		km
+
+  		<input class="button" type="submit" value="Generate Route" id="generateRoute" onclick="createRoute()">
+
+  		<div id="total"></div>
+
+  		<div id="dist"></div>
+		
+  		
+
+	</div>
+
+</div>
+
+</body>
+<script src="loopfitjs.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDE5qnbWnKo48mH5G-2o1X8Au8XSAuAS7c&libraries=places&callback=init"></script>  
+<script src="jquery-3.2.1.js"></script>
+</html>

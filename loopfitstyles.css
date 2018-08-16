@@ -1,0 +1,127 @@
+/*============= home page ================*/
+
+* {
+	padding:0px;
+	margin:0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#navbar {
+	height:45px;
+	width:auto;
+	background-color: #fff;
+
+}
+
+#navlogo {
+	height:35px;
+	width:100px;
+	float: left;
+	margin:5px;
+	margin-left:70px;
+}
+
+#navlogo img {
+	margin-top: 3px;
+}
+
+#links {
+	float:right;
+	padding-right: 100px;
+}
+#links p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 120%;
+	margin: 10px;
+	margin-right: 20px;
+	margin-left: 20px;	
+	display: inline-block;
+}
+#content {
+	background-color: #f1f1f1;
+}
+#mainImg {
+	position:static;
+	z-index: 1;
+	background-image: url("media/mainimg.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 500px;
+	width: 100%;
+	background-color: #009D49;
+	box-shadow: 0px 10px 50px #a8a8a8;
+}
+#mainImg img{
+	margin-top: 100px;
+	left:50%;
+}
+#blurb {
+	margin: 30px;
+	margin-top: 50px;
+}
+#blurb p {
+	color:#fff;
+	font-family: 'Open sans', sans-serif;
+	font-size: 150%;
+}
+#bannerbutton {
+	float:none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 160px;
+	height: 50px;
+	border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+#bannerbutton:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+#bannerbutton p{
+	float:none;
+	margin-top:11px;
+	color:#fff;
+	font-family: 'Open sans', sans-serif;
+	font-size: 120%;
+}
+
+#features {
+	position:inherit;
+	z-index: -1;
+	background-color: #f1f1f1;
+	height:700px;
+}
+#description {
+	margin-top: 60px;
+	text-align: center;
+	float:none;
+
+} 
+#description h1{
+	font-weight: normal;
+	color:#000;
+	font-family: 'Open sans', sans-serif;
+	font-size: 150%;
+}
+#description p{
+	margin-top: 20px;
+	color:#838383;
+	font-family: 'Open sans', sans-serif;
+	font-size: 120%;
+}
+#footer {
+	padding-top: 20px;
+	text-align: center;
+	font-family: 'Open sans', sans-serif;
+	font-size:80%;
+	color: #939393;
+	width: 100%;
+	height: 60px;
+	background-color: #f1f1f1;
+}
+

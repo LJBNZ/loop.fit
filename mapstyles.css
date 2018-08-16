@@ -1,0 +1,135 @@
+#map {
+	float: left;
+	display: inline-block;
+	height: 400px;
+	width: 600px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+#error {
+	color: red;
+	font-weight: bold;
+}
+
+#controls{
+	font-family: 'Open Sans', sans-serif;	
+	display: inline-block;
+	width: 500px;
+	height: 300px;
+	margin-left: 40px;
+	margin-top: 30px;
+	padding-left: 20px;
+	border: solid;
+	background-color: #f1f1f1;
+}
+
+#distance{
+	font-family: Roboto;
+	display: inline-block;
+	width: 500px;
+	height: 80px;
+	margin-left: 40px;
+	margin-top: 10px;
+	padding-left: 20px;
+	border: solid;
+	background-color: #f1f1f1;
+}
+
+#distanceInput{
+	display: inline-block;
+	margin-top: 25px;
+}
+#distanceField{
+	margin-left: 10px;
+	width: 30px;
+}
+
+#generateRoute{
+	margin-left: 40px;
+}
+
+#optionsHeader {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#homeMarkerText {
+	width: 100px;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#description {
+font-size: 15px;
+font-weight: 300;
+}
+
+#infowindow-content .title {
+font-weight: bold;
+}
+
+#infowindow-content {
+display: none;
+}
+
+#map #infowindow-content {
+display: inline;
+}
+
+.pac-card {
+margin: 10px 10px 0 0;
+border-radius: 2px 0 0 2px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+outline: none;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+background-color: #fff;
+font-family: Roboto;
+}
+
+#pac-container {
+padding-bottom: 12px;
+margin-right: 12px;
+}
+
+.pac-controls {
+display: inline-block;
+padding: 5px 11px;
+}
+
+.pac-controls label {
+font-family: Roboto;
+font-size: 13px;
+font-weight: 300;
+}
+
+#pac-input {
+background-color: #fff;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 300;
+margin-left: auto;
+margin-right: auto;
+text-overflow: ellipsis;
+width: 400px;
+}
+
+#pac-input:focus {
+border-color: #4d90fe;
+}
+
+#title {
+color: #fff;
+background-color: #4d90fe;
+font-size: 25px;
+font-weight: 500;
+padding: 6px 12px;
+}
+
+#target {
+width: 345px;
+}
+

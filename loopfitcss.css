@@ -1,0 +1,264 @@
+/*============= home page ================*/
+
+* {
+	padding:0px;
+	margin:0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#navbar {
+	height:45px;
+	width:auto;
+	background-color: #fff;
+
+}
+
+#navlogo {
+	height:35px;
+	width:100px;
+	float: left;
+	margin:5px;
+	margin-left:70px;
+}
+
+#navlogo img {
+	margin-top: 3px;
+}
+
+#links {
+	float:right;
+	padding-right: 100px;
+}
+#links p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 120%;
+	margin: 10px;
+	margin-right: 20px;
+	margin-left: 20px;	
+	display: inline-block;
+}
+#content {
+	background-color: #f1f1f1;
+}
+#mainImg {
+	position:static;
+	z-index: 1;
+	background-image: url("media/mainimg.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 500px;
+	width: 100%;
+	background-color: #009D49;
+	box-shadow: 0px 10px 50px #a8a8a8;
+}
+#mainImg img{
+	margin-top: 100px;
+	left:50%;
+}
+#blurb {
+	margin: 30px;
+	margin-top: 50px;
+}
+#blurb p {
+	color:#fff;
+	font-family: 'Open sans', sans-serif;
+	font-size: 150%;
+}
+#bannerbutton {
+	float:none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 160px;
+	height: 50px;
+	border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+#bannerbutton:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+#bannerbutton p{
+	float:none;
+	margin-top:11px;
+	color:#fff;
+	font-family: 'Open sans', sans-serif;
+	font-size: 120%;
+}
+
+#features {
+	position:inherit;
+	z-index: -1;
+	background-color: #f1f1f1;
+	height:700px;
+}
+#description {
+	margin-top: 60px;
+	text-align: center;
+	float:none;
+
+} 
+#description h1{
+	font-weight: normal;
+	color:#000;
+	font-family: 'Open sans', sans-serif;
+	font-size: 150%;
+}
+#description p{
+	margin-top: 20px;
+	color:#838383;
+	font-family: 'Open sans', sans-serif;
+	font-size: 120%;
+}
+#footer {
+	padding-top: 20px;
+	text-align: center;
+	font-family: 'Open sans', sans-serif;
+	font-size:80%;
+	color: #939393;
+	width: 100%;
+	height: 60px;
+	background-color: #f1f1f1;
+}
+
+/*============= map page ================*/
+
+#map {
+	float: left;
+	display: inline-block;
+	height: 400px;
+	width: 600px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+#error {
+	color: red;
+	font-weight: bold;
+}
+
+#controls{
+	font-family: 'Open Sans', sans-serif;	
+
+	width: 500px;
+	height: 300px;
+	margin-left: 40px;
+	margin-top: 30px;
+	padding-left: 20px;
+	border: solid;
+	background-color: #f1f1f1;
+}
+
+#distance{
+	font-family: Roboto;
+	display: inline-block;
+	width: 500px;
+	height: 80px;
+	margin-left: 40px;
+	margin-top: 10px;
+	padding-left: 20px;
+	border: solid;
+	background-color: #f1f1f1;
+}
+
+#distanceInput{
+	display: inline-block;
+	margin-top: 25px;
+}
+#distanceField{
+	margin-left: 10px;
+	width: 30px;
+}
+
+#generateRoute{
+	margin-left: 40px;
+}
+
+#optionsHeader {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#homeMarkerText {
+	width: 100px;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#description {
+font-size: 15px;
+font-weight: 300;
+}
+
+#infowindow-content .title {
+font-weight: bold;
+}
+
+#infowindow-content {
+display: none;
+}
+
+#map #infowindow-content {
+display: inline;
+}
+
+.pac-card {
+margin: 10px 10px 0 0;
+border-radius: 2px 0 0 2px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+outline: none;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+background-color: #fff;
+font-family: Roboto;
+}
+
+#pac-container {
+padding-bottom: 12px;
+margin-right: 12px;
+}
+
+.pac-controls {
+display: inline-block;
+padding: 5px 11px;
+}
+
+.pac-controls label {
+font-family: Roboto;
+font-size: 13px;
+font-weight: 300;
+}
+
+#pac-input {
+background-color: #fff;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 300;
+margin-left: auto;
+margin-right: auto;
+text-overflow: ellipsis;
+width: 400px;
+}
+
+#pac-input:focus {
+border-color: #4d90fe;
+}
+
+#title {
+color: #fff;
+background-color: #4d90fe;
+font-size: 25px;
+font-weight: 500;
+padding: 6px 12px;
+}
+
+#target {
+width: 345px;
+}
+
